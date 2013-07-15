@@ -27,4 +27,6 @@ abstract class Malam_Model_Page extends Model_Bigcontent
     protected $_is_direct_call  = FALSE;
 
     protected $_has_hierarchy   = FALSE;
+
+    protected $_gallery_enable  = FALSE;
 }
