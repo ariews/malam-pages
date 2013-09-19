@@ -12,9 +12,10 @@ $DPRX = Kohana::$config->load('site.dashboard_prefix');
 return array(
     // Page --------------------------------------------------------------------
     'page'                  => array(
-        'uri_callback'      => 'pages/<slug>',
+        'uri_callback'      => 'pages/<id>/<slug>',
         'regex'             => array(
             'slug'          => '[a-zA-Z0-9-_]+',
+            'id'            => '\d+',
         ),
         'defaults'          => array(
             'controller'    => 'page',
