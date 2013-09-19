@@ -22,6 +22,6 @@ abstract class Malam_Controller_Page extends Controller_Abstract_Frontend
             'model' => $this->model
         ));
 
-        $this->last_modified($this->page);
+        $this->last_modified($this->model);
     }
 }
