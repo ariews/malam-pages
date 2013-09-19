@@ -18,7 +18,7 @@ abstract class Malam_Controller_Page extends Controller_Abstract_Frontend
     public function action_read()
     {
         $this->temporary->set(array(
-            'title' => $this->page->title,
+            'title' => $this->model->title,
             'model' => $this->model
         ));
 
