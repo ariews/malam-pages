@@ -8,18 +8,6 @@ defined('SYSPATH') or die('No direct script access.');
 
 abstract class Malam_Model_Page extends Model_Bigcontent
 {
-    /**
-     * Admin route name
-     * @var string
-     */
-    protected $_admin_route_name = 'admin-page';
-
-    /**
-     * Route name
-     * @var string
-     */
-    protected $_route_name      = 'page';
-
     protected $_featured_enable = FALSE;
 
     protected $_tag_enable      = FALSE;
